@@ -1,5 +1,5 @@
-body{
-  background-image: url("https://wallpaperstream.com/wallpapers/thumbnails/avengers/Avengers-3D-Logo_thumb2x.jpg");
+body{  
+  background-image:url("https://i.annihil.us/u/prod/marvel/movies/infinitywar/videos/home.jpg");
 }
 h1{
     font-family: 'Anton', sans-serif;
@@ -19,14 +19,14 @@ h3{
 }
 
 label{
-    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-family: 'Bangers', cursive;
     color:red;
-    font-size: 18px;
+    font-size: 19px;
+    text-align: center;
 }
 
-.column-1{
-    
+
+
     
    
 
-}
