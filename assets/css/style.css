@@ -1,18 +1,31 @@
 body{
-  background-image: url("")
+  background-image: url("https://wallpaperstream.com/wallpapers/thumbnails/avengers/Avengers-3D-Logo_thumb2x.jpg");
 }
 h1{
-    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    color:gold;
     
 }
 h2{
     font-family: 'ZCOOL QingKe HuangYou', cursive;
+    color:red;
+
 }
 h3{
     font-family: 'ZCOOL QingKe HuangYou', cursive;
+    color: mediumslateblue;
+
 }
+
+label{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    color:red;
+    font-size: 18px;
+}
+
 .column-1{
-    border:2px soild red;
+    
     
    
 
