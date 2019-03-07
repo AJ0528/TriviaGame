@@ -1,9 +1,19 @@
 body{
-  background-image: url("../images/share.jpg")repeat; 
+  background-image: url("")
 }
 h1{
-    font-family: 'Righteous', cursive;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    
 }
 h2{
-    font-family: 'Righteous', cursive;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+h3{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+.column-1{
+    border:2px soild red;
+    
+   
+
 }
