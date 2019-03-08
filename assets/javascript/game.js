@@ -1,4 +1,4 @@
-
+var startGame
 var timer; 
 timer = setInterval(countdown, 1000);
 function countdown() {

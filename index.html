@@ -1,244 +1,323 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    : <link rel="stylesheet" type="text/css" href="../TriviaGame/assets/css/style.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Srisakdi|ZCOOL+QingKe+HuangYou" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Anton|Bangers" rel="stylesheet">
-    <title>Trivia Time</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  :
+  <link rel="stylesheet" type="text/css" href="../TriviaGame/assets/css/style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Srisakdi|ZCOOL+QingKe+HuangYou" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Anton|Bangers" rel="stylesheet">
+  <title>Trivia Time</title>
 
 </head>
+
 <body>
-    
-        <div class="container">
-            <h1>Avengers Trivia Time!</h1>
-                <h2 >Time Remaining:</h2>
- 
-                
-                
-<br><br>
-    
-     <div class="column-1">
-<h3>1. Which of the following Avengers from the comics is not in the movie?</h3>
-<div class="form-check form-check-inline">
-         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="answer-wasp">
+
+  <div class="container">
+    <h1>Avengers Trivia Time!</h1>
+    <h2>Time Remaining:</h2>
+
+
+
+    <br><br>
+
+    <div class="column-1">
+
+
+      <h3>1. Which of the following Avengers from the comics is not in the movie?</h3>
+      <form>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="answer-wasp">
           <label class="form-check-label" for="inlineRadio1">The Wasp</label>
-      </div>
+        </div>
 
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-        <label class="form-check-label" for="inlineRadio2">Captain America </label>
-      </div>
-      <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-            <label class="form-check-label" for="inlineRadio2">Hawk Eye </label>
-          </div>
-          <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                <label class="form-check-label" for="inlineRadio2">Black Widow </label>
-              </div>
-                </div>
-              <br><br>
 
-        <div class="column-2">
-<h3>2. What is Agent Coulson's first name?</h3>
-<div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-        <label class="form-check-label" for="inlineRadio1"> john </label>
-      </div>
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="answer-Phil">
-        <label class="form-check-label" for="inlineRadio2"> Phil </label>
-      </div>
-      <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-            <label class="form-check-label" for="inlineRadio2">Ben </label>
-          </div>
-          <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                <label class="form-check-label" for="inlineRadio2">Cal </label>
-              </div>
-                 </div>
-              <br><br>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+          <label class="form-check-label" for="inlineRadio2">Captain America </label>
+        </div>
+
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+          <label class="form-check-label" for="inlineRadio2">Hawk Eye </label>
+        </div>
+
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+          <label class="form-check-label" for="inlineRadio2">Black Widow </label>
+        </div>
+    </div>
+    </form>
+
+    <br><br>
+
+    <div class="column-2">
+      <h3>2. What is Agent Coulson's first name?</h3>
+      <form>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1"> john </label>
+        </div>
+
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="answer-Phil">
+          <label class="form-check-label" for="inlineRadio2"> Phil </label>
+        </div>
+
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+          <label class="form-check-label" for="inlineRadio2">Ben </label>
+        </div>
+
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+          <label class="form-check-label" for="inlineRadio2">Cal </label>
+        </div>
+    </div>
+    </form>
+
+    <br><br>
 
     <div class="cloumn-3">
-<h3>3. When Loki is locked up in the S.H.I.E.L.D. helicarrier, who gets him to reveal that he is planning to get Banner to change into the Hulk and destroy the ship from within?</h3>
-<div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="answer-Black Widow">
+      <h3>3. When Loki is locked up in the S.H.I.E.L.D. helicarrier, who gets him to reveal that he is planning to get
+        Banner to change into the Hulk and destroy the ship from within?</h3>
+
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+          value="answer-Black Widow">
         <label class="form-check-label" for="inlineRadio1"> Black Widow </label>
       </div>
+
       <div class="form-check form-check-inline">
         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
         <label class="form-check-label" for="inlineRadio2">Iron Man </label>
       </div>
+
       <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-            <label class="form-check-label" for="inlineRadio2">Hawk Eye </label>
-          </div>
-          <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                <label class="form-check-label" for="inlineRadio2">Thor </label>
-              </div>
-                </div>
-              <br><br>
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2">Hawk Eye </label>
+      </div>
+
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2">Thor </label>
+      </div>
+    </div>
+
+    <br><br>
+
     <div class="cloumn-4">
-<h3>4. Which Avenger's girlfriend makes an appearance in the film that isn't just a quick picture or a flashback to one of their solo movies?</h3>
- <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="answer-pepperPots">
+      <h3>4. Which Avenger's girlfriend makes an appearance in the film that isn't just a quick picture or a flashback
+        to one of their solo movies?</h3>
+
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+          value="answer-pepperPots">
         <label class="form-check-label" for="inlineRadio1"> PepperPots(Iron Man)</label>
       </div>
+
       <div class="form-check form-check-inline">
         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
         <label class="form-check-label" for="inlineRadio2">Jane Foster(thor) </label>
       </div>
+
       <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-            <label class="form-check-label" for="inlineRadio2">Betty Ross(Hulk) </label>
-          </div>
-          <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                <label class="form-check-label" for="inlineRadio2">Peggy Carter(Captin America)</label>
-              </div>
-              </div>
-              <br><br>
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2">Betty Ross(Hulk) </label>
+      </div>
+
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2">Peggy Carter(Captin America)</label>
+      </div>
+    </div>
+    <br><br>
+
     <div class="column-5">
-<h3>5. What is the name of the blue glowing square that Loki uses as a weapon?</h3>
-<div class="form-check form-check-inline">
+      <h3>5. What is the name of the blue glowing square that Loki uses as a weapon?</h3>
+
+      <div class="form-check form-check-inline">
         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
         <label class="form-check-label" for="inlineRadio1">The Soul Stone</label>
       </div>
+
       <div class="form-check form-check-inline">
         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
         <label class="form-check-label" for="inlineRadio2"> The Gem of Discovery </label>
       </div>
+
       <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="answer-Tesseract">
-            <label class="form-check-label" for="inlineRadio2">Tesseract</label>
-          </div>
-          <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                <label class="form-check-label" for="inlineRadio2">Infinity Stone</label>
-              </div>
-                </div>
-              <br><br>
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+          value="answer-Tesseract">
+        <label class="form-check-label" for="inlineRadio2">Tesseract</label>
+      </div>
+
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2">Infinity Stone</label>
+      </div>
+    </div>
+    <br><br>
+
     <div class="column-6">
-<h3>6. When Iron Man is struck by Thor's lightning what happens?</h3>
-<div class="form-check form-check-inline">
+      <h3>6. When Iron Man is struck by Thor's lightning what happens?</h3>
+      <div class="form-check form-check-inline">
         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="answer-400%">
         <label class="form-check-label" for="inlineRadio1">It super charges his armor up to 400%.</label>
       </div>
+
       <div class="form-check form-check-inline">
         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-        <label class="form-check-label" for="inlineRadio2">His suit shuts down and he is trapped in his own armor</label>
+        <label class="form-check-label" for="inlineRadio2">His suit shuts down and he is trapped in his own
+          armor</label>
       </div>
+
       <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-            <label class="form-check-label" for="inlineRadio2"> Tony Stark's chest piece gives out and he goes into cardiac arrest.</label>
-          </div>
-          <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                <label class="form-check-label" for="inlineRadio2">It is deflected and strikes Captain America.</label>
-              </div>
-                 </div>
-              <br><br>
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2"> Tony Stark's chest piece gives out and he goes into cardiac
+          arrest.</label>
+      </div>
+
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2">It is deflected and strikes Captain America.</label>
+      </div>
+    </div>
+    <br><br>
+
     <div class="column-7">
-<h3>7. When the Avengers are in the streets of New York Captain America starts issuing orders. What are his orders to the Hulk?</h3>
-<div class="form-check form-check-inline">
-<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-<label class="form-check-label" for="inlineRadio1">Throw a nuclear bomb into the rift in space.</label>
-</div>
-<div class="form-check form-check-inline">
-<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-<label class="form-check-label" for="inlineRadio2">Destroy the force field surrounding the machine that is keeping the hole open. </label>
-</div>
-<div class="form-check form-check-inline">
-    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="answer-smash">
-    <label class="form-check-label" for="inlineRadio2">Smash </label>
-  </div>
-  <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-        <label class="form-check-label" for="inlineRadio2">Turn back into Banner and help Tony reinitialize his armor.</label>
+      <h3>7. When the Avengers are in the streets of New York Captain America starts issuing orders. What are his orders
+        to the Hulk?</h3>
+
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+        <label class="form-check-label" for="inlineRadio1">Throw a nuclear bomb into the rift in space.</label>
       </div>
-        </div>
-      <br><br>
-      <div class="column-8">
-<h3>8. When all of the Avengers are bickering in the lab on the S.H.I.E.L.D helicarrier which Avenger is not present?</h3>
-<div class="form-check form-check-inline">
-<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="answer-Hawkeye">
-<label class="form-check-label" for="inlineRadio1">Hawkeye</label>
-</div>
-<div class="form-check form-check-inline">
-<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-<label class="form-check-label" for="inlineRadio2">Dr. Banner</label>
-</div>
-<div class="form-check form-check-inline">
-    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-    <label class="form-check-label" for="inlineRadio2">Black Widow</label>
-  </div>
-  <div class="form-check form-check-inline">
+
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2">Destroy the force field surrounding the machine that is
+          keeping the hole open. </label>
+      </div>
+
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="answer-smash">
+        <label class="form-check-label" for="inlineRadio2">Smash </label>
+      </div>
+
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2">Turn back into Banner and help Tony reinitialize his
+          armor.</label>
+      </div>
+    </div>
+    <br><br>
+
+    <div class="column-8">
+      <h3>8. When all of the Avengers are bickering in the lab on the S.H.I.E.L.D helicarrier which Avenger is not
+        present?</h3>
+
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="answer-Hawkeye">
+        <label class="form-check-label" for="inlineRadio1">Hawkeye</label>
+      </div>
+
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2">Dr. Banner</label>
+      </div>
+
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2">Black Widow</label>
+      </div>
+
+      <div class="form-check form-check-inline">
         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
         <label class="form-check-label" for="inlineRadio2">Captin America</label>
       </div>
-        </div>
-      <br><br>
-      <div class="column-9">
-<h3>9. When Tony Stark is threatening Loki and going through the Avengers roll call what is he doing?</h3>
-<div class="form-check form-check-inline">
-<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="answer-Making a Drink">
-<label class="form-check-label" for="inlineRadio1">Making a drink</label>
-</div>
-<div class="form-check form-check-inline">
-<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-<label class="form-check-label" for="inlineRadio2"> Using an energy absorber to suck the energy out of Loki's staff</label>
-</div>
-<div class="form-check form-check-inline">
-    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-    <label class="form-check-label" for="inlineRadio2">Dialing 911 on his phone</label>
-  </div>
-  <div class="form-check form-check-inline">
+
+    </div>
+    <br><br>
+
+    <div class="column-9">
+      <h3>9. When Tony Stark is threatening Loki and going through the Avengers roll call what is he doing?</h3>
+      
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+          value="answer-Making a Drink">
+        <label class="form-check-label" for="inlineRadio1">Making a drink</label>
+      </div>
+
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2"> Using an energy absorber to suck the energy out of Loki's
+          staff</label>
+      </div>
+
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2">Dialing 911 on his phone</label>
+      </div>
+
+      <div class="form-check form-check-inline">
         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
         <label class="form-check-label" for="inlineRadio2">Setting Stark Tower to self destruct</label>
       </div>
-        </div>
-      <br><br>
-      <div class="column-10">
-<h3>10. What letter in the Avengers Tower was last standing</h3>
-<div class="form-check form-check-inline">
+    </div>
+    <br><br>
+
+    <div class="column-10">
+      <h3>10. What letter in the Avengers Tower was last standing</h3>
+
+      <div class="form-check form-check-inline">
         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="answer-A">
         <label class="form-check-label" for="inlineRadio1">A</label>
-        </div>
-        <div class="form-check form-check-inline">
+      </div>
+
+      <div class="form-check form-check-inline">
         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
         <label class="form-check-label" for="inlineRadio2">V</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-            <label class="form-check-label" for="inlineRadio2">E</label>
-          </div>
-          <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                <label class="form-check-label" for="inlineRadio2">N</label>
-          
-                    </div>
-        
-                      <input type="submit" value="Submit"></input>
-             
-                    
+      </div>
+
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2">E</label>
+      </div>
+
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2">N</label>
+
+      </div>
+      
+      <form>
+      <input type="submit" value="Submit"></input>
+    </form>
 
 
 
-                
-             <script src="https://code.jquery.com/jquery-3.3.1.slim.js"
-                integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
-                crossorigin="anonymous"></script>  
 
-<script src="../TriviaGame/assets/javascript/game.js"></script>
+
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.js"
+        integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=" crossorigin="anonymous"></script>
+
+      <script src="../TriviaGame/assets/javascript/game.js"></script>
 
 </body>
+
 </html>
